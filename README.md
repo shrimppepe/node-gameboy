@@ -6,7 +6,7 @@ A Gameboy emulator runnable on browsers or server side.
 
 ## Online Build
 
-http://nakardo.github.io/node-gameboy
+https://shrimppepe.github.io/node-gameboy/
 
 ### Controllers
 
