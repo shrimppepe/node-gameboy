@@ -43,7 +43,6 @@ function fullscreen () {
     .call(canvas);
 }
 
-$('#input').change(loadFile);
 $('#fullscreen').click(fullscreen);
 $('#pause').click(function () { gameboy.pauseResume() });
 $('#reset').click(function () { gameboy.reset() });
