@@ -27,7 +27,7 @@
         "babelify",
         {
           "presets": [
-            "env"
+            "@babel/env"
           ]
         }
       ]
@@ -38,21 +38,21 @@
     "debug": "./lib/shims/debug.js"
   },
   "dependencies": {
-    "canvas": "^1.4.0",
-    "debug": "^3.1.0",
+    "canvas": "^2.9.1",
+    "debug": "^4.3.1",
     "raf": "^3.3.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babelify": "^8.0.0",
-    "brfs": "^1.4.3",
-    "browserify": "^16.1.1",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babelify": "^10.0.0",
+    "brfs": "^2.0.2",
+    "browserify": "^17.0.0",
     "browserify-versionify": "^1.0.6",
-    "gifencoder": "^1.0.6",
-    "socket.io": "^2.1.0",
-    "uglify-js": "^3.3.18",
-    "watchify": "^3.7.0"
+    "gifencoder": "^2.0.1",
+    "socket.io": "^4.5.0",
+    "uglify-js": "^3.15.5",
+    "watchify": "^4.0.0"
   },
   "repository": {
     "type": "git",
